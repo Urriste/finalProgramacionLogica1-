@@ -1,0 +1,15 @@
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\bin\Debug\finalProgramacionLogica1.exe.config
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\bin\Debug\finalProgramacionLogica1.exe
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\bin\Debug\finalProgramacionLogica1.pdb
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.csproj.AssemblyReference.cache
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmPunto2.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmSistemaRestaurante.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.Properties.Resources.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.csproj.GenerateResource.cache
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.csproj.CoreCompileInputs.cache
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.exe
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.pdb
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmPunto3.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmPunto4.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmPunto5.resources
+C:\Users\Lukeu\OneDrive\Escritorio\Facu\Programación Lógica 1\finalProgramacionLogica1\finalProgramacionLogica1\obj\Debug\finalProgramacionLogica1.frmPunto6.resources

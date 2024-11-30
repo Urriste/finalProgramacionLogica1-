@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBCECBAF-470D-4B0B-9162-C92688BF24CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>finalProgramacionLogica1</RootNamespace>
+    <AssemblyName>finalProgramacionLogica1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatosRestaurante.cs" />
+    <Compile Include="frmPunto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunto2.Designer.cs">
+      <DependentUpon>frmPunto2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunto3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunto3.Designer.cs">
+      <DependentUpon>frmPunto3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunto4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunto4.Designer.cs">
+      <DependentUpon>frmPunto4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunto5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunto5.Designer.cs">
+      <DependentUpon>frmPunto5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunto6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunto6.Designer.cs">
+      <DependentUpon>frmPunto6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSistemaRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSistemaRestaurante.Designer.cs">
+      <DependentUpon>frmSistemaRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPunto2.resx">
+      <DependentUpon>frmPunto2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunto3.resx">
+      <DependentUpon>frmPunto3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunto4.resx">
+      <DependentUpon>frmPunto4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunto5.resx">
+      <DependentUpon>frmPunto5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunto6.resx">
+      <DependentUpon>frmPunto6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSistemaRestaurante.resx">
+      <DependentUpon>frmSistemaRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
